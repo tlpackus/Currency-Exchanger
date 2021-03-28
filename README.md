@@ -1,20 +1,26 @@
-# Template README
+# Currency Exchange Calculator
 
+#### This application shows how much a number of USD is in other currencies.
 
-# (Application Name)
-
-#### (Brief Description of Application)
-
-#### By (Your Name Here)
+#### By Theron Packus
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* VS Code
+* HTML/CSS
+* JavaScript
+* jQuery
+* Bootstrap
+* Webpack
+* Jest
+* Babel
+* eslint
+* Node
+* popper.js
 
 ## Description
+
+This application uses an API called ExchangeRate and allows users to select currency rates from various different countries and convert USD to their most common currency.
 
 ## Setup/Installation Requirements
 
@@ -31,5 +37,13 @@
 
 ## License
 
-## Contact Information
+[MIT](https://)
+
+Copyright © 2021 Theron Packus
+
+All rights Reserved
+
+## Support and Contact Information
+
+For contact support, please email Theron Packus <a href = "mailto: tlpackus@gamil.com">Send Email</a>
 
