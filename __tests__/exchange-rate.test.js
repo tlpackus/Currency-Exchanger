@@ -173,8 +173,8 @@ describe("exchange-rate", () => {
 
   test("should return a string stating the name of the currency requested and the calculated exchange rate of your USD amount entered converted to that currency", () => {
     const usd = 50;
-    const exchangeRate = 133.0075;
+    const exchangeRate = 104.3908;
     const currency = "all";
-    expect(exchange.calcCurrency(usd, currency, exchangeRate)).toEqual("Albanian Lek: 6650.375")
+    expect(exchange.calcCurrency(usd, currency, exchangeRate)).toEqual("Albanian Lek: 5219.54")
   });
 });
