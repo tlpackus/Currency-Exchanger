@@ -163,6 +163,8 @@ export default class ExchangeRate {
   }
 
   calcCurrency(usd, currency, exchangeRate) {
-    
+    const currencyAmount = usd * exchangeRate;
+    const currencyAmountRounded = parseFloat(currencyAmount.toFixed(3));
+    return `${this[currency]}: ${currencyAmountRounded}`;
   };
 }
