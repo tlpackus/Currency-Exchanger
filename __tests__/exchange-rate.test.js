@@ -170,4 +170,11 @@ describe("exchange-rate", () => {
     expect(exchange.zar).toEqual("South African Rand");
     expect(exchange.zmw).toEqual("Zambian Kwacha");
   });
+
+  test("should return a string stating the name of the currency requested and the calculated exchange rate of your USD amount entered converted to that currency", () => {
+    const usd = 50;
+    const exchangeRate = 133.0075;
+    const currency = "all";
+    expect(exchange.calcCurrency(usd, currency, exchangeRate)).toEqual("Albanian Lek: 6650.375")
+  });
 });
