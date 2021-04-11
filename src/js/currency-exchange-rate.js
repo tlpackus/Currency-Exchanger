@@ -5,7 +5,7 @@ export default class CurrencyExchangeRate {
       `);
 
       if (!response.ok) {
-        throw Error(response.statusText);
+        throw Error(`${response.status} ${response.statusText}`);
       }
       return response.json();
     } catch (error) {
