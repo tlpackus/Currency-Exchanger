@@ -1,5 +1,5 @@
 import { TestScheduler } from "jest";
-import ExchangeRate from "../src/exchange-rate.js";
+import ExchangeRate from "../src/js/exchange-rate.js";
 
 describe("exchange-rate", () => {
   let exchange;
