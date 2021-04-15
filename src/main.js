@@ -39,7 +39,9 @@ function getElements(response, usd, currency) {
   const exchange = new ExchangeRate();
   if (response.result === "success") {
     if (currency in response.conversion_rates) {
-      const returnString = exchange.calcCurrency(usd, currency, response.conversion_rates[currency]);
+      const returnString = exchange.calcCurrency(usd, currency.toLowerCase(), response.conversion_rates[currency]);
+      console.log("usd", usd);
+      console.log("currency", currency);
       $('.showExchangeValue').show();
       $('.showExchangeValue').text(returnString);
       $('.showErrors').hide();
@@ -52,16 +54,17 @@ function getElements(response, usd, currency) {
     showError(`Error: ${response}`);
   }
 }
+async function gitApiCall(usd, currency) {
+  const response = await CurrencyExchangeRate.getConversions(); //try catch
+  getElements(response, usd, currency);
+}
 
 $(document).ready(function() {
   $('#exchange-rate').submit(function(event) {
     event.preventDefault();
     const usd = parseInt($('#usd-value').val());
     const currency = $('#currency').val().toUpperCase();
-    (async function() {
-      const response = await CurrencyExchangeRate.getConversions();
-      getElements(response, usd, currency);
-    });
+    gitApiCall(usd, currency);
   });
 });
 
