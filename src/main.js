@@ -40,8 +40,6 @@ function getElements(response, usd, currency) {
   if (response.result === "success") {
     if (currency in response.conversion_rates) {
       const returnString = exchange.calcCurrency(usd, currency.toLowerCase(), response.conversion_rates[currency]);
-      console.log("usd", usd);
-      console.log("currency", currency);
       $('.showExchangeValue').show();
       $('.showExchangeValue').text(returnString);
       $('.showErrors').hide();
