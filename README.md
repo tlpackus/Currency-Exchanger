@@ -56,5 +56,5 @@ All rights Reserved
 
 ## Support and Contact Information
 
-For contact support, please email here <a href = "mailto: tlpackus@gamil.com">Send Theron An Email</a>
+For contact support, please email here <a href = "mailto: tlpackus@gamil.com">Send Email</a>
 
