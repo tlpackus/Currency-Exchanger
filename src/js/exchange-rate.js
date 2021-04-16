@@ -10,6 +10,7 @@ export default class ExchangeRate {
     this.aud = "Australian Dollar";
     this.awg = "Aruban Florin";
     this.azn = "Azerbaijani Manat";
+    this.bad = "Fake Currency To Cause Error"
     this.bam = "Bosnia and Herzegovina Mark";
     this.bbd = "Barbados Dollar";
     this.bdt = "Bangladeshi Taka";
