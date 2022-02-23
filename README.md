@@ -25,6 +25,8 @@
 
 This project uses asynchronous code and an API called ExchangeRate to create a currency exchanging application. An integer input box is given for the user to enter the amount of USD they wish to find an exchange rate for. The second input box is for the user to select one of the 160 currencies available to convert to. Lastly the user can click the blue Submit button to display the conversion rate along with the name of the currency the user selected to convert to.
 
+![Currency Exchanger UI](src/img/currency-exchanger.png)
+
 ## Setup/Installation Requirements
 
 * _Open the terminal on your local machine_
@@ -44,7 +46,8 @@ This project uses asynchronous code and an API called ExchangeRate to create a c
 
 ## Known Bugs
 
-* _No bugs but there was a "BAD" currency option added just to test this projects error handling capabilities. Should just ask you to select another currency if it's selected_
+* _No known bugs once setup and installed properly. There was a "BAD" currency option added just to test this projects error handling capabilities. The program will just ask you to select another currency if it's selected though._
+*_The version of this project available on Github Pages has no CSS or working API calls so I'm still working on getting that fixed_
 
 ## License
 
