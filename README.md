@@ -32,7 +32,7 @@ This project uses asynchronous code and an API called ExchangeRate to create a c
 * _Open the terminal on your local machine_
 * _Navigate to the directory inside of which you wish to house this project_
 * _If [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)_
-* _Clone this project with the following command  `$ git clone <https://github.com/tlpackus/Currency-Exchanger.git>`_
+* _Clone this project with the following command  `$ git clone https://github.com/tlpackus/Currency-Exchanger.git`_
 * _Navigate to the top level of the repository with the command `$ cd currency-exchanger`_
 * _Visit the [ExchangeRate-API](https://www.exchangerate-api.com/). Input your email address and click the "Get Free Key" button_
 * _You will be prompted to create an account with your email, first name and a password. Agree to the terms os use and click "Get Started!". You'll then have access to your own API key and your remaining API calls for the month_
