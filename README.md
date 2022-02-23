@@ -47,7 +47,7 @@ This project uses asynchronous code and an API called ExchangeRate to create a c
 ## Known Bugs
 
 * _No known bugs once setup and installed properly. There was a "BAD" currency option added just to test this projects error handling capabilities. The program will just ask you to select another currency if it's selected though._
-*_The version of this project available on Github Pages has no CSS or working API calls so I'm still working on getting that fixed_
+* _No version of this project is available on Github Pages because the CSS and API calls were not connecting. I'm still working on getting that fixed._
 
 ## License
 
